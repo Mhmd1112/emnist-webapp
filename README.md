@@ -28,3 +28,8 @@ The project has a **FastAPI backend** and a **Streamlit frontend** for easy use.
 
 ```bash
 pip install fastapi uvicorn streamlit pillow tensorflow joblib requests
+python app.py
+# or
+uvicorn app:app --reload
+streamlit run streamlit_app.py
+
